@@ -2,3 +2,6 @@
     <h2>{{ question.question_text }}</h2>
     <a href="{% url 'polls:detail' question.id %}">View Details</a>
 {% endfor %}
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'polls/style.css' %}">
