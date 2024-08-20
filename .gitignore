@@ -1,0 +1,10 @@
+# Exclude a specific directory
+/path/to/package/
+
+# Exclude all `.pyc` files
+*.pyc
+
+# Exclude virtual environment directories
+env/
+venv/
+myenv/
